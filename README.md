@@ -21,7 +21,8 @@ A Convolutional Neural Network (CNN) implementation in PyTorch to classify MNIST
 
 ```
 Image_classification/
-├── train.py              # Main training script
+├── train.py              # Main training script (Python)
+├── train.ipynb           # Jupyter notebook version
 ├── requirements.txt      # Python dependencies
 ├── README.md            # Project documentation
 ├── mnist_cnn_model.pth  # Saved model (after training)
@@ -41,9 +42,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the training script:
+You can run the project in two ways:
+
+### Option 1: Python Script
 ```bash
 python train.py
+```
+
+### Option 2: Jupyter Notebook (Recommended for interactive learning)
+```bash
+jupyter notebook train.ipynb
+```
+Or if you prefer JupyterLab:
+```bash
+jupyter lab train.ipynb
 ```
 
 The script will:
